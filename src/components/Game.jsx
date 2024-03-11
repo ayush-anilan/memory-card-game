@@ -5,7 +5,7 @@ import Footer from './Footer'
 
 const Game = ({ pokemon, score, hiScore, clickCard }) => {
     return (
-        <div className='container mx-auto mt-3 flex flex-col gap-16  items-center font-mono'>
+        <div className='container mx-auto mt-3 flex flex-col gap-10  items-center font-mono'>
             <NavSection score={score} hiScore={hiScore} />
             {pokemon.length > 0 ? (
                 <div className="flex flex-wrap gap-10 pl-10">
