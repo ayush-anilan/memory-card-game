@@ -21,7 +21,7 @@ const GameCard = ({ pokeData, clickCard }) => {
     return (
         <div className='card bg-white rounded-lg w-80 p-5 ' onClick={() => clickCard(pokemonImg)}>
             <div className='image bg-blue-300 rounded-md'>
-                <img src={pokemonImg} alt={pokeData.name} className='ml-auto mr-auto w-4/5 h-64' />
+                <img src={pokemonImg} alt={pokeData.name} className='ml-auto mr-auto w-4/5 h-60' />
             </div>
             <div className='name '>
                 <p className='text-center text-4xl text-black'>{pokeData.name}</p>
